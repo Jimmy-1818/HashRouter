@@ -2,4 +2,4 @@
 
 var link = window.location.href
 
-alert(link)
+alert(link.slice(20))
