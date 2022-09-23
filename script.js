@@ -4,6 +4,7 @@
 // pick up the current url > variable part
 var link = window.location.href
 var sublink = link.slice(42)
+console.log("!")
 
 // change registration link when receiving a personalized url
 if (sublink.length > 10){
