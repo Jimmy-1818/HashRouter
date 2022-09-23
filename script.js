@@ -3,11 +3,11 @@
 // SU CARICAMENTO
 // pick up the current url > variable part
 var link = window.location.href
-var sublink = link.slice(42)
 
 // change registration link when receiving a personalized url
-if (sublink.length > 10){
-	affiliate_registration = "https://business.genuiny.com/" + sublink
+if (link.length > 53){
+	var sublink = link.slice(42)
+	var affiliate_registration = "https://business.genuiny.com/" + sublink
 
 	var current_link = document.getElementById('link')
 	current_link.setAttribute('href', affiliate_registration)};
