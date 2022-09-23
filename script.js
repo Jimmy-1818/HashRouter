@@ -13,8 +13,7 @@ if (sublink.length > 10){
 document.getElementById("process-link").addEventListener("click", process_link(document.getElementById("link-to-process")));
 
 
-function process_link(sub){
-
-
-document.getElementById("processed-link").innerHTML(MMMMMMMMMMMM)
-}
+function process_link(raw_link){
+	//if(){}
+	document.getElementById("processed-link").innerHTML(raw_link.slice(29))
+};
