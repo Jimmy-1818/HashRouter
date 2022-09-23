@@ -4,14 +4,13 @@
 // pick up the current url > variable part
 var link = window.location.href
 var sublink = link.slice(42)
-console.log("!")
 
 // change registration link when receiving a personalized url
 if (sublink.length > 10){
-	console.log("in > 10")
-	document.getElementById("added-text").innerHTML = sublink
+	affiliate_registration = "https://business.genuiny.com/" + sublink
+
 	var current_link = document.getElementById('link')
-	current_link.setAttribute('href', sublink)};
+	current_link.setAttribute('href', affiliate_registration)};
 
 
 
