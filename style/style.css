@@ -23,9 +23,7 @@ body{
 
 .content-box{
 	border-radius: 0 0 30px 30px;
-	border-left: 4px dashed #0abbb5;
-	border-bottom: 4px dashed #0abbb5;
-	border-right: 4px dashed #0abbb5;
+	border: 4px dashed #0abbb5;
 	padding: 0 4vw 2vw 4vw;
 }
 
